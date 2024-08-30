@@ -12,6 +12,7 @@ const Header = () => {
         backgroundPosition: 'center',
         height: '200px', // Increased height from 150px to 200px
       }}
+      //main heading
     >
       {/* Overlay to darken the background image for better text visibility */}
       <div className="absolute inset-0 bg-purple-600 opacity-50 rounded-3xl"></div>
