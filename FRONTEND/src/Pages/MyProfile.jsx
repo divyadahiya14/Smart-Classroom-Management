@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import MainLayout from '../Components/MainLayout';
 
-const MyProfile = () => {
+function App() {
   return (
-    <div>
-      <h1>My Profile</h1>
+    <div className="App">
+      <MainLayout />
     </div>
-  )
+  );
 }
 
-export default MyProfile
+export default App;
